@@ -1,0 +1,56 @@
+.courseCard-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: start; */
+  /* line-height: 0.9; */
+}
+
+.title-card {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-size: 20px;
+  text-align: flex-start;
+}
+
+.duration-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description {
+  margin: 0px;
+}
+
+.list-item {
+  list-style-type: none;
+  margin-right: 5px;
+  background-color: #e2e8f0;
+  padding: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  height: 25px;
+  padding: 0px;
+  padding-bottom: 20px;
+}
+
+.list-container {
+  display: flex;
+  /* flex-direction: row; */
+  margin-top: 0px;
+  /* width: 300px; */
+  /* line-height: 0.9; */
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+}
+
+.description {
+  width: 300px;
+}
